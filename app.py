@@ -66,6 +66,7 @@ class api:
                 data = {"name": name, "date": date}
                 datas.append(data)
 
+            web.header('Content-Type', 'application/json')
             return parseToJson(datas)
         elif len(year) == 4 and (
             int(year) < year_from or int(year) > year_limit
