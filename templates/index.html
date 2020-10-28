@@ -1,0 +1,26 @@
+$def with (link, year_now, year_from, year_limit)
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Hari Libur</title>
+    <link rel="stylesheet" type="text/css" href="static/simple.css">
+</head>
+<body>
+    <div id="container">
+        <div id="main">
+            <div id="content" class="body">
+                <h2>API Hari libur</h2>
+                <p>Untuk melihat data hari libur silahkan copy link di bawah lalu jalankan di browser anda.</p>
+                <div class="language-plaintext highlighter-rouge">
+                    <div class="highlight"><pre class="highlight"><code>$:link/api/$:year_now</code></pre></div>
+                </div>
+                <strong>Catatan :</strong>
+                <ol>
+                    <li>$:year_now adalah tahun yang ingin diambil data hari liburnya</li>
+                    <li>Data hari libur yang tersedia adalah dari tahun $:year_from sampai $:year_limit</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
