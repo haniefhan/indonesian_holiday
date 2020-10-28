@@ -2,7 +2,7 @@
 
 My first python project - API - Indonesian Holiday Scrapping
 
-Menyediakan nama hari libur nasional di Indonesia dalam bentuk JSON.
+Provide JSON Formatted Indonesian's national holiday.
 
 Depedencies:
 * [web.py](https://webpy.org/)
@@ -28,7 +28,7 @@ Depedencies:
 
 Project python pertamaku - API - Scrapping Hari Libur Indonesia
 
-Provide JSON Formatted Indonesian's national holiday.
+Menyediakan nama hari libur nasional di Indonesia dalam bentuk JSON.
 
 Depedensi:
 * [web.py](https://webpy.org/)
